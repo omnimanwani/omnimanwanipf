@@ -5,18 +5,18 @@ import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
 import python from "../../assets/python.svg"
-import java from "../../assets/java.svg"
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
-import htmlIcon from "../../assets/html-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
-import sassIcon from "../../assets/sass-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-// import nodeIcon from "../../assets/node-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import Cpp from "../../assets/c.svg"
+import c from "../../assets/c-1.svg";
+import awsIcon from "../../assets/aws-2.svg";
+import neo4j from "../../assets/neo4j.svg";
+import TensorFlow from "../../assets/tensorflow-2.svg";
+import MongoDb from "../../assets/mongodb-icon-1.svg";
+import mysql from "../../assets/mysql-icon.svg";
+import matplotlib from "../../assets/matplotlib-1.svg";
+import Langchain from "../../assets/langchain-1.svg";
+import github from "../../assets/github.svg";
+import vscode from "../../assets/vscode-icon.svg"
+import omni from "../../assets/OmniManwani.jpg"
 
 export function Main() {
   return (
@@ -151,72 +151,72 @@ export function Main() {
               },
               "image": [
                 {
-                  "src": boostrapIcon,
+                  "src": Cpp,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": cssIcon,
+                  "src": c,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": wordpress,
+                  "src": awsIcon,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": shopify,
+                  "src": neo4j,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": htmlIcon,
+                  "src": TensorFlow,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": jsIcon,
+                  "src": MongoDb,
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": mysqlIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
+                {
+                  "src": mysql,
+                  "width": 20,
+                  "height": 20
+                },
                 {
                   "src": python,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": java,
+                  "src": matplotlib,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": reactIcon,
+                  "src": Langchain,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": sassIcon,
+                  "src": github,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": typescriptIcon,
+                  "src": TensorFlow,
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": vscodeIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
                 {
-                  "src": vueIcon,
+                  "src": vscode,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": omni,
                   "width": 20,
                   "height": 20
                 },
