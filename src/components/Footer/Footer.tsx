@@ -23,7 +23,7 @@ export function Footer() {
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://t.me/CodeVinayak"
+          href="https://t.me/omni_m"
           target="_blank"
           rel="noreferrer"
         >
