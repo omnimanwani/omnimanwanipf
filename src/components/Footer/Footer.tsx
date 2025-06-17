@@ -30,7 +30,7 @@ export function Footer() {
           <img src={telegram} alt="telegram" />
         </a>
         <a
-          href="https://www.instagram.com/vinayaksingh.in"
+          href="https://www.instagram.com/__omni._/"
           target="_blank"
           rel="noreferrer"
         >
