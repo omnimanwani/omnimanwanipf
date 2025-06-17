@@ -17,7 +17,8 @@ export function About() {
   return (
     <Container id="about">
       <div className="about-text">
-        <ScrollAnimation animateIn="fadeInLeft">
+        <div className="about-text-content">
+          <ScrollAnimation animateIn="fadeInLeft">
           <h2>About me</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
@@ -35,18 +36,21 @@ export function About() {
             I am researching in LLM based Health-Care industry.
           </p>
         </ScrollAnimation>
+        </div>
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="education">
             <h3>Education:</h3>
             <h4> B.Tech. in Computer Science and Engineering</h4>
-            <p>IIIT Vadodara | November 2022 - Present</p>
+            <p>IIIT Vadodara</p>
+            <p>November 2022 - Present</p>
             <p>9.07 CPI</p>
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
              <h3>Experience:</h3><h4>AI Developer Intern</h4>
-            <p>AI Health Tech Start-up | May 2025 - August 2025</p>
+            <p>AI Health Tech Start-up</p>
+            <p>May 2025 - August 2025</p>
             <p>Silicon Valley, USA</p>
           </div>
         </ScrollAnimation>
@@ -101,7 +105,7 @@ export function About() {
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000} className="langchain_bg">
               <img src={Langchain} alt="Langchain" />
             </ScrollAnimation>
           </div>

@@ -16,7 +16,7 @@ import matplotlib from "../../assets/matplotlib-1.svg";
 import Langchain from "../../assets/langchain-1.svg";
 import github from "../../assets/github.svg";
 import vscode from "../../assets/vscode-icon.svg"
-import omni from "../../assets/OmniManwani.jpg"
+import omni from "../../assets/illustration.svg";
 
 export function Main() {
   return (
@@ -217,8 +217,8 @@ export function Main() {
                 },
                 {
                   "src": omni,
-                  "width": 20,
-                  "height": 20
+                  "width": 550,
+                  "height": 550
                 },
 
               ],

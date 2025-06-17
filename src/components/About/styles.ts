@@ -5,6 +5,13 @@ export const Container = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+  .langchain_bg img {
+    background-color: white;
+    border-radius: 8px;
+    padding: 6px;
+    height: 2rem;
+    width: 2rem;
+  }
 
   .hard-skills{
     margin-top: 1.6rem;
@@ -13,13 +20,16 @@ export const Container = styled.section`
     flex-wrap: wrap;
     gap: 1.8rem;
   }
+    .about-text-content p{
+    text-align:left;
+    }
   .hability{
     display: flex;
     flex-direction: column;
     align-items: center;
 
     img{
-      width: 3.4rem;
+      width: 4.0rem;
     }
   }
 
