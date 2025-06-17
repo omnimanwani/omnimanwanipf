@@ -1,6 +1,7 @@
-# Portfolio of Vinayak Singh
+# Portfolio - Omni Manwani
 
-<img src ="https://github.com/CodeVinayak/CodeVinayak/blob/5920a79f4c5977332a67caf91125241cf0fc46b5/www.vinayaksingh.in.png" />
+<img width="1366" alt="Screenshot 2025-06-17 at 5 39 11 PM" src="https://github.com/user-attachments/assets/24227a42-344e-4f29-9be5-79252d35314b" />
+
  
 This project was created with CRA (Create React App)
 
